@@ -44,14 +44,14 @@ const App = () => {
         <Routes>
           <Route
             exact
-            path="/NewsApp"
+            path="/"
             element={
               <News
                 apiKey={apiKey}
                 setProgress={setProgress}
                 key="general"
                 pageSize={10}
-                country="in"
+                country="us"
                 category="general"
               />
             }
@@ -65,7 +65,7 @@ const App = () => {
                 setProgress={setProgress}
                 key="business"
                 pageSize={10}
-                country="in"
+                country="us"
                 category="business"
               />
             }
@@ -79,7 +79,7 @@ const App = () => {
                 setProgress={setProgress}
                 pageSize={10}
                 key="entertainment"
-                country="in"
+                country="us"
                 category="entertainment"
               />
             }
@@ -93,7 +93,7 @@ const App = () => {
                 setProgress={setProgress}
                 key="health"
                 pageSize={10}
-                country="in"
+                country="us"
                 category="health"
               />
             }
@@ -107,7 +107,7 @@ const App = () => {
                 setProgress={setProgress}
                 key="science"
                 pageSize={10}
-                country="in"
+                country="us"
                 category="science"
               />
             }
@@ -121,7 +121,7 @@ const App = () => {
                 setProgress={setProgress}
                 pageSize={10}
                 key="technology"
-                country="in"
+                country="us"
                 category="technology"
               />
             }
@@ -135,7 +135,7 @@ const App = () => {
                 setProgress={setProgress}
                 key="sports"
                 pageSize={10}
-                country="in"
+                country="us"
                 category="sports"
               />
             }

@@ -6,7 +6,7 @@ const Navbar = () => {
     <div>
       <nav className="navbar fixed-top navbar-expand-lg bg-black">
         <div className="container-fluid">
-          <h4 className="navbar-brand text-white">My News App📰</h4>
+          <h4 className="navbar-brand text-white">FlashFeed📰</h4>
           <button
             className="navbar-toggler"
             type="button"
@@ -21,7 +21,7 @@ const Navbar = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0">
               <li className="nav-item">
-                <Link className="nav-link active text-white" aria-current="page" to="/NewsApp">
+                <Link className="nav-link active text-white" aria-current="page" to="/">
                   Home
                 </Link>
               </li>
